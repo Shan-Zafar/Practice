@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EditText et3 = findViewById(R.id.et3);
         String msg = "Order for " + et1.getText().toString() + " , "
                 + et2.getText().toString() + " & "
-                + et3.getText().toString() + "has been successfully placed";
+                + et3.getText().toString() + " has been successfully placed";
         intent.putExtra(MSG, msg);
         startActivity(intent);
     }
